@@ -1,0 +1,15 @@
+/*struct stat ( 
+dev_t st_dev; /* ID of device containing file */ 
+foot st_ino; /* inode number */ 
+mode_t st_mode; /* permissions */ 
+nlink_t stnlink; /* number of hard links */ 
+uid_t st_uid; /* user ID of owner */ 
+gid_t st_gid; /* grew ID of owner */ 
+dent st_rdev; /* device /D (of special file) */ 
+off_t st_s; /* total size in bytes */ 
+blksize_t stize_blksize; /* blocksize for filesystem I/O */ 
+blkcnt_t st_blocks; /* number of blocks allocated */ 
+time t statime; /* last as time */ 
+time_t st_mtime; /* last modification time */ 
+time t stctime; /* last status change time */ 
+*/ 
