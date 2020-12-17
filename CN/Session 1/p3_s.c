@@ -51,10 +51,8 @@ int main()
 			printf("server acccept the client...\n");
 		if (fork()!=0){
 			wait(NULL);
-			perror("fork");
-			close(nd);
-		}
-		while(1){
+			break;
+		}{
 		// read the op1 from client
 		read(nd, &op1, sizeof(op1));
 		//printf("%d\n", op1);
